@@ -1,0 +1,22 @@
+2026-11-23 21:25:36,074 - [INFO] - Cliente registrado exitosamente: Cliente [C01]: Andrés Aponte (andres@unad.edu.co)
+2026-11-23 21:25:36,075 - [ERROR] - Error registrando cliente [C02]: Correo electrónico inválido: 'correo_invalido.com'.
+2026-11-23 21:25:36,075 - [ERROR] - Error registrando cliente [C03]: Nombre inválido: 'Lu'. Debe tener al menos 3 caracteres.
+2026-11-23 21:25:36,075 - [INFO] - Servicio agregado al catálogo: Sala [S01]: Sala Juntas Norte (Capacidad: 10 pers. | $50.0/h)
+2026-11-23 21:25:36,075 - [INFO] - Servicio agregado al catálogo: Equipo [S02]: Servidor portátil Xeon (Gama alta | $120.0/día)
+2026-11-23 21:25:36,075 - [INFO] - Servicio agregado al catálogo: Asesoría [S03]: Arquitectura Cloud (AWS | $90.0/sesión)
+2026-11-23 21:25:36,076 - [ERROR] - Simulación 5 - Error capturado al crear servicio: La tarifa base debe ser mayor a cero.
+2026-11-23 21:25:36,076 - [INFO] - Reserva R01 CONFIRMADA para Andrés Aponte. Total: $160.65
+2026-11-23 21:25:36,076 - [INFO] - Auditoría de intento de confirmación finalizada para R01.
+2026-11-23 21:25:36,076 - [INFO] - --- Fin de transacción R01 ---
+2026-11-23 21:25:36,076 - [ERROR] - Fallo controlado en operación [R02]: El servicio 'Sala Juntas Norte' no está disponible. | Causa: None
+2026-11-23 21:25:36,076 - [INFO] - --- Fin de transacción R02 ---
+2026-11-23 21:25:36,076 - [INFO] - Auditoría de intento de confirmación finalizada para R03.
+2026-11-23 21:25:36,076 - [ERROR] - Fallo controlado en operación [R03]: Fallo al liquidar reserva R03 | Causa: El alquiler de equipos debe ser entre 1 y 30 días.
+2026-11-23 21:25:36,077 - [INFO] - --- Fin de transacción R03 ---
+2026-11-23 21:25:36,077 - [INFO] - Auditoría de intento de confirmación finalizada para R04.
+2026-11-23 21:25:36,077 - [ERROR] - Fallo controlado en operación [R04]: Fallo al liquidar reserva R04 | Causa: El descuento en asesorías no puede superar el 50%.
+2026-11-23 21:25:36,077 - [INFO] - --- Fin de transacción R04 ---
+2026-11-23 21:25:36,077 - [WARNING] - Reserva R01 CANCELADA. Servicio liberado.
+2026-11-23 21:25:36,077 - [INFO] - Reserva R05 CONFIRMADA para Andrés Aponte. Total: $113.05
+2026-11-23 21:25:36,077 - [INFO] - Auditoría de intento de confirmación finalizada para R05.
+2026-11-23 21:25:36,077 - [INFO] - --- Fin de transacción R05 ---
